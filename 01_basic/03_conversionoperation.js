@@ -20,4 +20,43 @@ console.log(stringNumber);
 console.log(typeof stringNumber);
 
 
+//**********************  operations  *******************
+
+let value = 3
+let negvalue = -value
+console.log(negvalue);
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**3); // power
+console.log(2/2);
+console.log(2%3);
+
+let str1 = "Pushpendra"
+let str2 = " Singh"
+let str3 = str1+str2 //  Pushpendra Singh
+// console.log(str3);
+
+// console.log(1+"2"); //12
+// console.log("1"+2); //12
+// console.log("1"+2+2); // 122
+// console.log(1+2+"2"); // 32(1+2 ho gaya or 3 side me aa gaya)
+
+console.log(+true); // it convert true in number give 1
+console.log(+"");  // it convert true in number give 0
+
+let gamecounter = 100;
+gamecounter++;
+console.log(gamecounter);
+
+
+
+
+
+
+
+
+
+
+
 
