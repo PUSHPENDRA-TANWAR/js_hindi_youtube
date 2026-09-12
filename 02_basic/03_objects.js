@@ -34,7 +34,9 @@ console.log(jsuser);
 
 
 jsuser.email = "abc@chatgpt.com" // changing/overwrite the value
+
 //Object.freeze(jsuser) // ab object ki value change nhi ho sakti 
+
 jsuser.email = "abc@gemini.com"
 console.log(jsuser["email"]);
 
