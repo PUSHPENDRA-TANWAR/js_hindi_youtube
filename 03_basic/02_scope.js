@@ -1,4 +1,4 @@
-var c = 300
+//var c = 300
 let a = 300
 if (true) {
     let a = 10
@@ -10,7 +10,7 @@ if (true) {
 
 
 console.log(a);
-//console.log(b);
+console.log(b);
 console.log(c);
 
 
@@ -45,15 +45,16 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+console.log(addone(5)) // isme ye print kar dega
 
 function addone(num){
     return num + 1
 }
 
 
+// ek variable function ko hold kar raha h 
+console.log(addTwo(5)); // hamne niche variable ki form me function declare kara h isme hm function se pahle access nhi kar sakte thats why it show error
 
-addTwo(5)
 const addTwo = function(num){
     return num + 2
 }
