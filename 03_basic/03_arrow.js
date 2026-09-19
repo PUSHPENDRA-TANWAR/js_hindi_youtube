@@ -20,12 +20,14 @@ const user = {
 //     console.log(this.username);
 // }
 
-// chai()
+// chai() // undefined show karega 
 
 // const chai = function () {
 //     let username = "hitesh"
 //     console.log(this.username);
 // }
+
+//chai() // undefined show karega 
 
 const chai =  () => {
     let username = "hitesh"
@@ -33,17 +35,21 @@ const chai =  () => {
 }
 
 
-// chai()
+// chai() // show {}
+
+// Arrow function basic // curlybasis use hua to return likhna padega
 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
 // }
 
+
+// Implicit return 
 // const addTwo = (num1, num2) =>  num1 + num2
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo = (num1, num2) => ({username: "hitesh"}) // object return k liye {} use karna padega
 
 
 //console.log(addTwo(3, 4))
